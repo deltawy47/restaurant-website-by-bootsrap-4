@@ -71,3 +71,22 @@ body{
     left: 0;
     min-height: 300px;
 }
+#radio5 {
+    visibility: hidden;
+}
+.filter-switch label {
+  cursor: pointer;
+}
+.filter-switch-item input:checked + label {
+  color: inherit;
+}
+.filter-switch-item input:not(:checked) + label {
+  --bg-opacity: 0;
+  box-shadow: none;
+}
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
